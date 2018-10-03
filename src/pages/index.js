@@ -41,7 +41,7 @@ const IndexPage = () => (
       key={cell.num}
        title={cell.title}
       text={cell.title}
-      image={cell.image}></Card>
+      image={require("../"+cell.image)}></Card>
       ))}
       
       </div>
