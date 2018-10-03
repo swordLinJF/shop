@@ -1,0 +1,64 @@
+
+{
+    "cells": [
+        {   "num": 1,
+            "title": "Intro to React",
+            "image": "https://drh2acu5z204m.cloudfront.net/items/3y432I1D443h2y2i2A2l/WechatIMG1086.jpeg?X-CloudApp-Visitor-Id=3171543&v=5512b043"
+        },
+        {
+            "num": 2,
+            "title": "Basic Styling in CSS",
+            "image": "https://drh2acu5z204m.cloudfront.net/items/1R132i2A2x0T0b0w1s1S/341538383946_.pic_hd.jpg?X-CloudApp-Visitor-Id=3171543&v=13ac7063"
+        },
+        {
+            "num": 3,
+            "title": "Adaptive Layout with CSS Grid",
+            "image": "https://drh2acu5z204m.cloudfront.net/items/0D1l373U3r212x3v222A/10901538383909_.pic_hd.jpg?X-CloudApp-Visitor-Id=3171543&v=e1b4ad93"
+        },
+        {
+            "num": 4,
+            "title": "Interactions and Animations",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        },
+        {
+            "num": 5,
+            "title": "SVG Animation",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        },
+        {
+            "num": 6,
+            "title": "Components and Props",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        },
+        {
+            "num": 7,
+            "title": "States and Events",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        },
+        {
+            "num": 8,
+            "title": "Styled Components",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        },
+        {
+            "num": 9,
+            "title": "Static Data with JSON",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        },
+        {
+            "num": 10,
+            "title": "GraphQL with Contentful",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        },
+        {
+            "num": 11,
+            "title": "Publish to Netlify",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        },
+        {
+            "num": 12,
+            "title": "Payment with Stripe Checkout",
+            "image": "https://images.ctfassets.net/ooa29xqb8tix/2YZaHxM1eUsWaiEcqAaiiI/4dd511b40f844b03612bb37a2e6a953d/react-states.jpg?w=1440&h=800&q=100&fit=fill"
+        }
+    ]
+}
