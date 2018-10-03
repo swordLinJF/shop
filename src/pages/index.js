@@ -33,7 +33,7 @@ const IndexPage = () => (
     </div>
     <div className="cards">
 
-      <h2>11 courses</h2>
+      <h2>{staticdata.cells.length}种商品,任你挑选</h2>
       <div className="cardGroup">
       {staticdata.cells.map(cell=>(
       
