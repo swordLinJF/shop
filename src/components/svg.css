@@ -2,6 +2,7 @@ body{
   width: 100%;
   height: 736px;
   text-align: -webkit-center;
+  background-color: pink
 }
 
 *, *:before, *:after {
@@ -331,4 +332,7 @@ body{
     position: absolute;
     left: 50%;
     bottom: 30px;
+    
   }
+
+  h3{color: #ff4562  }
