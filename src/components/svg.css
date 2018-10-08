@@ -1,6 +1,7 @@
 body{
   width: 100%;
-  height: 100%
+  height: 736px;
+  text-align: -webkit-center;
 }
 
 *, *:before, *:after {
@@ -321,3 +322,7 @@ body{
     margin: 0 1rem;
   }
   
+ #___gatsby{
+    text-align: center;
+    padding: 20px;
+  }
