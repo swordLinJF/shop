@@ -57,9 +57,9 @@ class love extends React.Component{
   render(){
     return(
      <div className="t">
-      <div  className="t">
+      <h3  className="t">
         {this.state.love}
-      </div>
+      </h3>
       <div >
         <svg className="heart-loader"   xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 90 90" version="1.1">
           <g className="heart-loader__group">
@@ -70,6 +70,7 @@ class love extends React.Component{
           </g>
         </svg>
       </div>
+      <h4 className="other__link">by 林剑锋</h4>
     </div>  
     )
   }

@@ -326,3 +326,9 @@ body{
     text-align: center;
     padding: 20px;
   }
+
+  h4{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+  }
