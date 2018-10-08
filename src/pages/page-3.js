@@ -25,7 +25,7 @@ class love extends React.Component{
   constructor(props){
     super(props)
     this.state = {
-      content: "呐，给你一颗小心心",
+      content: "呐，给你一颗小❤️❤️",
       love: "",
     }
     
