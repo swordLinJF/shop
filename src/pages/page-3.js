@@ -70,7 +70,7 @@ class love extends React.Component{
           </g>
         </svg>
       </div>
-      <h4 className="other__link">by 😶</h4>
+      <h4 className="other__link">by <span>😶</span></h4>
     </div>  
     )
   }
