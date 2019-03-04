@@ -24,15 +24,15 @@ body{
   .heart-loader__group {
     -webkit-transform-origin: 0 90px;
             transform-origin: 0 90px;
-    -webkit-animation: group-anim 7s 1s infinite;
-            animation: group-anim 7s 1s infinite;
+    -webkit-animation: group-anim 7s 1s 1;
+            animation: group-anim 7s 1s 1;
   }
   .heart-loader__square {
     stroke: #B8B8B8;
     stroke-dasharray: 240, 240;
     stroke-dashoffset: 240;
-    -webkit-animation: square-anim 7s 1s infinite;
-            animation: square-anim 7s 1s infinite;
+    -webkit-animation: square-anim 7s 1s 1;
+            animation: square-anim 7s 1s 1;
   }
   .heart-loader__circle {
     stroke: #B8B8B8;
@@ -42,20 +42,20 @@ body{
             transform-origin: 60px 30px;
   }
   .heart-loader__circle.m--left {
-    -webkit-animation: left-circle-anim 7s 1s infinite;
-            animation: left-circle-anim 7s 1s infinite;
+    -webkit-animation: left-circle-anim 7s 1s 1;
+            animation: left-circle-anim 7s 1s 1;
   }
   .heart-loader__circle.m--right {
-    -webkit-animation: right-circle-anim 7s 1s infinite;
-            animation: right-circle-anim 7s 1s infinite;
+    -webkit-animation: right-circle-anim 7s 1s 1;
+            animation: right-circle-anim 7s 1s 1;
   }
   .heart-loader__heartPath {
     stroke: #E21737;
     fill: transparent;
     stroke-dasharray: 308.522, 308.522;
     stroke-dashoffset: 308.522;
-    -webkit-animation: heart-anim 7s 1s infinite;
-            animation: heart-anim 7s 1s infinite;
+    -webkit-animation: heart-anim 7s 1s 1;
+            animation: heart-anim 7s 1s 1;
   }
   
   @-webkit-keyframes square-anim {
@@ -72,7 +72,7 @@ body{
     }
     100% {
       stroke-dashoffset: 0;
-      opacity: 0;
+      opacity: 1;
     }
   }
   
@@ -90,7 +90,7 @@ body{
     }
     100% {
       stroke-dashoffset: 0;
-      opacity: 0;
+      opacity: 1;
     }
   }
   @-webkit-keyframes left-circle-anim {
@@ -123,7 +123,7 @@ body{
       stroke-dashoffset: 0;
       -webkit-transform: translateY(-30px);
               transform: translateY(-30px);
-      opacity: 0;
+      opacity: 1;
     }
   }
   @keyframes left-circle-anim {
@@ -156,7 +156,7 @@ body{
       stroke-dashoffset: 0;
       -webkit-transform: translateY(-30px);
               transform: translateY(-30px);
-      opacity: 0;
+      opacity: 1;
     }
   }
   @-webkit-keyframes right-circle-anim {
@@ -189,7 +189,7 @@ body{
       stroke-dashoffset: 0;
       -webkit-transform: translateX(30px);
               transform: translateX(30px);
-      opacity: 0;
+      opacity: 1;
     }
   }
   @keyframes right-circle-anim {
@@ -222,7 +222,7 @@ body{
       stroke-dashoffset: 0;
       -webkit-transform: translateX(30px);
               transform: translateX(30px);
-      opacity: 0;
+      opacity: 1;
     }
   }
   @-webkit-keyframes group-anim {
@@ -242,12 +242,12 @@ body{
     97% {
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg);
-      opacity: 0;
+      opacity: 1;
     }
     100% {
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg);
-      opacity: 0;
+      opacity: 1;
     }
   }
   @keyframes group-anim {
@@ -267,12 +267,12 @@ body{
     97% {
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg);
-      opacity: 0;
+      opacity: 1;
     }
     100% {
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg);
-      opacity: 0;
+      opacity: 1;
     }
   }
   @-webkit-keyframes heart-anim {

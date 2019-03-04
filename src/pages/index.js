@@ -9,10 +9,10 @@ const IndexPage = () => (
   <Layout>
     <div className="hero">
       <div className="heroGroup">
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <Link to="/page-2/">Go to page 2</Link>
+        <h1>大家好</h1>
+        <p>欢迎来到我的站点.</p>
+        <p>给大家看一些好东西.</p>
+        <Link to="/page-2/">跳转</Link>
         <div className="logos">
           <img src={require("../images/logo-sketch.png")} width="50px" />
           <img src={require("../images/logo-studio.png")} width="50px" />

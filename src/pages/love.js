@@ -1,6 +1,6 @@
 import React from 'react'
 import svg from '../components/svg.css'
-
+import {init} from '../components/main.js'
 class Love extends React.Component{
   constructor(props){
     super(props)
@@ -13,8 +13,6 @@ class Love extends React.Component{
   componentDidMount(){
    
       this.hasScroll();
-    //if(this.state.i==this.state.content.length)
-   // clearInterval(this.state.interval);
   }
 
   hasScroll = (event)=>{
@@ -34,6 +32,7 @@ class Love extends React.Component{
     
   }
 
+
   render(){
     return(
      <div className="t">
@@ -41,6 +40,7 @@ class Love extends React.Component{
         {this.state.love}
       </h3>
       <div >
+      <canvas id="canvas"></canvas>
         <svg className="heart-loader"   xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 90 90" version="1.1">
           <g className="heart-loader__group">
             <path className="heart-loader__square" strokeWidth="1" fill="none" d="M0,30 0,90 60,90 60,30z"/>
