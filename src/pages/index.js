@@ -14,12 +14,12 @@ const IndexPage = () => (
         <p>给大家看一些好东西.</p>
         <Link to="/page-2/">跳转</Link>
         <div className="logos">
-          <img src={require("../images/logo-sketch.png")} width="50px" />
+          {/* <img src={require("../images/logo-sketch.png")} width="50px" />
           <img src={require("../images/logo-studio.png")} width="50px" />
           <img src={require("../images/logo-swift.png")} width="50px" />
           <img src={require("../images/logo-xcode.png")} width="50px" />
           <img src={require("../images/logo-react.png")} width="50px" />
-          <img src={require("../images/logo-invision.png")} width="50px" />
+          <img src={require("../images/logo-invision.png")} width="50px" /> */}
         </div>
         {/* <svg width="100%" height="172" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill="white">
